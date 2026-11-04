@@ -457,7 +457,7 @@ it|semo|Semovente 75/18|2|1|l640|T|75|36|16|1.6||
 it|p26|P26/40|3|0|m13|O|105|44|15|1.7||
 it|semo2|Semovente 105/25|3|1|semo|T|90|52|16|2||`,
 VEH=VD.split('\n').map(l=>{const a=l.split('|');return{nat:a[0],id:a[1],n:a[2],rk:+a[3],row:+a[4],par:a[5],cl:{H:'Hafif',O:'Orta',A:'Ağır',T:'Tank Avcısı'}[a[6]],hp:+a[7],dm:+a[8],sp:+a[9],rl:+a[10],mdl:a[11],col:a[12]?parseInt(a[12],16):0x44484a,br:BR_TABLO[a[1]]==null?1:BR_TABLO[a[1]]}}),
-VB=id=>VEH.find(v=>v.id===id),MODELS={},KAPALI={pz2:1,tiger:1,m4:1,maus:1},KAPALI_NEDEN='3D modellerde sorun var.';
+VB=id=>VEH.find(v=>v.id===id),MODELS={},KAPALI={pz2:1,tiger:1,m4:1},KAPALI_NEDEN='3D modellerde sorun var.';
 let ST={nat:'de',sel:'pz2',own:{},res:{},sl:20000,rp:9000},mode='hangar',lx=0,hDrag=0,hAz=.6,HT=null;
 try{const q=JSON.parse(localStorage.getItem('ironbound3d'));if(q&&q.own)ST=q}catch(_){}
 VEH.forEach(v=>{if(v.rk===1){ST.own[v.id]=ST.res[v.id]=1}});
