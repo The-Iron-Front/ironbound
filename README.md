@@ -10,4 +10,5 @@
 * [Ozinoob27844](https://github.com/Ozinoob27844) "Modeller",
 * [boracurgul-coder](https://github.com/boracurgul-coder) "Tester",
 * [marvelfan365](https://github.com/marvelfan365) "Music Compressor",
-* [ozgurberkkaya-code](https://github.com/ozgurberkkaya-code) "Project Owner"
+* [ozgurberkkaya-code](https://github.com/ozgurberkkaya-code) "Project Owner",
+* [kemalgumussoy](https://github.com/kemalgumussoy) "2nd Owner"
