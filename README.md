@@ -6,9 +6,8 @@
 
 ## Special Thanks
 ### We thank to the people that has helped us. Here is a list of them:
-'''
-[Ozinoob27844](https://github.com/Ozinoob27844) "Modeller"
-[boracurgul-coder](https://github.com/boracurgul-coder) "Tester"
-[marvelfan365](https://github.com/marvelfan365)] "Music Compressor"
-[ozgurberkkaya-code]([https://github.com/orgs/The-Iron-Front/people/ozgurberkkaya-code](https://github.com/ozgurberkkaya-code)] "Project Owmer"
-'''
+
+* [Ozinoob27844](https://github.com/Ozinoob27844) "Modeller",
+* [boracurgul-coder](https://github.com/boracurgul-coder) "Tester",
+* [marvelfan365](https://github.com/marvelfan365)] "Music Compressor",
+* [ozgurberkkaya-code]([https://github.com/orgs/The-Iron-Front/people/ozgurberkkaya-code](https://github.com/ozgurberkkaya-code)] "Project Owmer"
