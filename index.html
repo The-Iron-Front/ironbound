@@ -508,7 +508,7 @@ let CUR=VB(ST.sel)&&ST.own[ST.sel]?VB(ST.sel):VEH[0];ST.nat=CUR.nat;
    Nesneler herkese açık okunabilir ve bucket CORS ayarları bu siteye izin vermelidir.
    tanks/{oyun-kodu}/{oyun-kodu}.fbx
    tanks/{oyun-kodu}/textures/{FBX'in referans verdiği doku dosyaları} */
-const S3_BASE_URL=''
+const S3_BASE_URL='https://iron-front.s3.eu-north-1.amazonaws.com/ironbound/'
 const assetUrl=p=>{const b=S3_BASE_URL.trim().replace(/\/+$/,'');return b?b+'/'+String(p).split('/').map(encodeURIComponent).join('/'):''};
 const tankAsset=(code,file)=>assetUrl(`tanks/${code}/${file}`),
 SPEC={tiger:{u:tankAsset('tiger','tiger.fbx'),d:tankAsset('tiger','textures/'),m:1,t:(x,y)=>y>262&&x>60,L:6.3},
